@@ -27,7 +27,7 @@ PHOENIX_ENDPOINT = os.getenv(
 )
 N8N_APPROVAL_WEBHOOK = os.getenv(
     "N8N_APPROVAL_WEBHOOK",
-    "http://n8n.hyperplane-n8n.svc.cluster.local:5678/webhook/briefing-approval",
+    "http://n8n-v2.hyperplane-n8n-v2:80/webhook/briefing-approval",
 )
 EXTRACTFLOW_URL = os.getenv(
     "EXTRACTFLOW_URL",
