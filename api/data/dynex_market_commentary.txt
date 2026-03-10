@@ -1,0 +1,40 @@
+DYNEX CAPITAL — MARKET COMMENTARY
+March 2026 | Capital Markets Briefing
+
+FEDERAL RESERVE UPDATE
+The Federal Open Market Committee (FOMC) held the federal funds rate steady at 5.25-5.50% at its March 2026 meeting, marking the sixth consecutive hold. Chair Powell emphasized that the Committee remains data-dependent, with PCE inflation running at 2.8% — still above the 2% target. Market pricing reflects approximately 2 cuts in H2 2026, down from 3 cuts priced a month ago following stronger-than-expected labor market data (NFP +235K, unemployment 3.7%).
+
+MORTGAGE RATE ENVIRONMENT
+30-year fixed mortgage rates held at 7.10% this week, up 12bps from the prior week following stronger jobs data. The spread between 30yr mortgages and 10yr Treasuries remains elevated at ~280bps vs. historical average of ~170bps, reflecting continued MBS basis widening. 15-year rates are at 6.55%. ARM rates (5/1) are at 6.20%.
+
+AGENCY MBS SPREADS
+Agency MBS spreads widened 8bps this week:
+- FNMA 30Y 6.5% coupon: OAS +32bps (prior week +24bps)
+- FHLMC 15Y 5.0% coupon: OAS +28bps (prior week +21bps)
+- GNMA 30Y 6.0% coupon: OAS +38bps (prior week +31bps)
+- FNMA ARM: OAS +22bps (prior week +18bps)
+
+Primary driver: elevated rate volatility (MOVE index 115, 90-day high) and continued bank balance sheet contraction reducing natural MBS demand.
+
+PREPAYMENT SPEEDS
+March 2026 CPR data (released March 6):
+- FNMA 30Y aggregate: 8.2 CPR (consensus was 7.4 CPR — above expectations)
+- FHLMC 15Y aggregate: 11.5 CPR (consensus 10.8 CPR)
+- GNMA 30Y aggregate: 6.8 CPR (consensus 6.2 CPR)
+- FNMA ARM: 18.2 CPR (consensus 17.1 CPR)
+
+Higher-than-expected prepayment speeds on premium-priced pools (price > 100) creates negative convexity drag. Pools with face values above $40M and coupons ≥ 6.5% are most exposed to call risk in a rate rally scenario.
+
+DURATION EXTENSION RISK
+With rates at 7.1% on 30-year mortgages, FNMA and GNMA 30Y pools are exhibiting duration extension relative to original WAL projections. At current speeds, FNMA 30Y pools at 6.5% coupon are extending from projected 6.2yr to actual 6.8yr duration. A 100bps rate shock up would extend duration to approximately 8.5yr, significantly increasing mark-to-market sensitivity.
+
+CREDIT & CONVEXITY
+Agency MBS carry no credit risk. Convexity is the primary concern. Negative convexity is most pronounced in:
+1. FNMA 30Y pools with face values > $35M (large pool factor, higher refinancing cohort)
+2. GNMA 30Y pools with WAM < 295 months (seasoned pools, higher burnout potential)
+3. FNMA ARM pools approaching reset dates (extension risk if ARM-to-fixed conversions spike)
+
+POSITIONING RECOMMENDATIONS
+Duration-sensitive positions to monitor: Any FNMA 30Y pool with coupon ≥ 6.5% and face value > $40M presents the highest extension risk in the current environment. OAS widening reflects the market's demand for additional compensation given convexity uncertainty heading into the April FOMC meeting.
+
+Fed Watch: April 30 FOMC — no change expected. Key releases to watch: April CPI (April 11), Q1 GDP (April 30). A CPI print above 3.2% would likely push mortgage rates toward 7.5% and extend duration across all 30Y pools by an estimated additional 0.3-0.5yr.
