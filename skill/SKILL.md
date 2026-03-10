@@ -1,6 +1,7 @@
 ---
 name: dynex-mbs
 description: "Dynex Capital MBS Intelligence — query portfolio exposure, generate daily briefings, and submit for CFO approval directly from Mattermost."
+license: MIT
 compatibility: opencode
 metadata:
   author: robert-shakudo
@@ -20,6 +21,16 @@ Mattermost-native interface to the Dynex MBS Intelligence app. Same backend, sec
 
 **API URL:** `http://hyperplane-service-f49ba0.hyperplane-pipelines.svc.cluster.local:8787`
 **App URL:** https://dynex-mbs-ui.dev.hyperplane.dev
+
+---
+
+## When to Activate
+
+- Someone asks about Dynex portfolio exposure, MBS positions, or risk analysis
+- Requests to generate or submit a daily briefing
+- Questions about briefing approval status
+- Asking to show portfolio or specific CUSIPs
+- Any Dynex MBS Intelligence workflow from Mattermost
 
 ---
 
@@ -179,3 +190,11 @@ Kaji: [calls submit_for_approval with stored briefing_id]
 - If API returns 500: `"I'm having trouble reaching the MBS Intelligence API. Try again in a moment."`
 - If no briefing_id in context when submitting: `"Which briefing would you like to submit? Please run 'generate briefing' first."`
 - If briefing status is `not_found`: `"Briefing [id] not found. Generate a new one with 'generate briefing'."`
+
+---
+
+## Credentials Required
+
+| Variable | Description |
+|---|---|
+| `DYNEX_API_URL` | API base URL — use internal cluster URL from within Shakudo: `http://hyperplane-service-f49ba0.hyperplane-pipelines.svc.cluster.local:8787` |
