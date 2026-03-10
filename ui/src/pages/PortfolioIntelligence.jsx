@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Send, TrendingDown, AlertTriangle, FileText } from 'lucide-react'
+import { Send, TrendingDown, AlertTriangle, FileText, BarChart3 } from 'lucide-react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
