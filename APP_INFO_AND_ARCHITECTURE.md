@@ -223,3 +223,43 @@ VITE_API_URL=http://localhost:8787 npm run dev
 ```
 
 Open http://localhost:5173 (Vite dev server) or http://localhost:8787 (if API serves static files).
+
+---
+
+## Start / Stop this POC on Shakudo
+
+### Start (deploy fresh)
+```
+@kaji build and deploy the Dynex POC
+```
+Or via platform (2 services — deploy backend first):
+```javascript
+shakudo-platform_createMicroservice({ name: "dynex-mbs-api", gitServer: "demos", script: "dynex-mbs/api/run.sh", port: 8787 })
+shakudo-platform_createMicroservice({ name: "dynex-mbs-ui",  gitServer: "demos", script: "dynex-mbs/ui/run.sh",  port: 8787 })
+```
+
+### Stop (scale to zero — config preserved)
+```
+@kaji stop the Dynex POC
+```
+Or via platform (stop both services):
+```javascript
+shakudo-platform_scaleService({ id: "dynex-mbs-api", newReplicas: 0 })
+shakudo-platform_scaleService({ id: "dynex-mbs-ui",  newReplicas: 0 })
+```
+
+### Restart
+```
+@kaji restart the Dynex POC
+```
+
+### Status check
+```javascript
+shakudo-platform_searchMicroservice({ searchTerm: "dynex-mbs" })
+```
+
+**Internal URLs (from cluster):**
+```
+dynex-mbs-api: http://hyperplane-service-f49ba0.hyperplane-pipelines.svc.cluster.local:8787
+dynex-mbs-ui:  http://hyperplane-service-f08ded.hyperplane-pipelines.svc.cluster.local:8787
+```
