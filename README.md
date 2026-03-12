@@ -24,7 +24,7 @@ Dynex Capital's fixed income team manages an MBS portfolio across FNMA, FHLMC, a
 
 One interface — ask a natural language question, get a ranked exposure analysis. Click "Generate Briefing" for a full structured report. Submit to CFO in one click. Upload a 10-Q PDF and get the pool table as a structured CSV.
 
-### Demo Scenarios (Pre-Loaded)
+### POC Scenarios (Pre-Loaded)
 
 | Question | What the App Returns |
 |---|---|
@@ -98,7 +98,7 @@ One interface — ask a natural language question, get a ranked exposure analysi
 
 ## How to Use the App
 
-### Demo Flow
+### POC Walk-through
 
 1. Open **https://dynex-mbs-ui.dev.hyperplane.dev** (Shakudo platform login required)
 
