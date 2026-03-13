@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Shield, ExternalLink, Activity } from 'lucide-react'
 import axios from 'axios'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8787'
+const API = import.meta.env.VITE_API_URL || ''
 
 export default function AuditTrail() {
   const [phoenixUrl, setPhoenixUrl] = useState('https://arize-phoenix.dev.hyperplane.dev')

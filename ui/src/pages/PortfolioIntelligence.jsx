@@ -3,7 +3,7 @@ import { Send, TrendingDown, AlertTriangle, FileText, BarChart3 } from 'lucide-r
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8787'
+const API = import.meta.env.VITE_API_URL || ''
 
 const EXAMPLE_QUERIES = [
   'Which positions are most exposed to duration extension risk this week?',

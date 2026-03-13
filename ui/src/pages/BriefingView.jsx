@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { CheckCircle, Clock, Send, AlertTriangle, TrendingDown, TrendingUp } from 'lucide-react'
 import axios from 'axios'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8787'
+const API = import.meta.env.VITE_API_URL || ''
 
 const URGENCY_COLORS = { high: '#ef4444', medium: '#f59e0b', low: '#22c55e' }
 const RISK_COLORS = { high: '#ef4444', medium: '#f59e0b', low: '#22c55e' }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Upload, Download, FileText, CheckCircle, Loader } from 'lucide-react'
 import axios from 'axios'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8787'
+const API = import.meta.env.VITE_API_URL || ''
 
 function fmt(n) {
   if (!n) return '—'
