@@ -6,10 +6,11 @@ const app = express()
 const PORT = 8787
 const API_INTERNAL = 'http://hyperplane-service-f49ba0.hyperplane-pipelines.svc.cluster.local:8787'
 
-app.use(['/api', '/health'], createProxyMiddleware({
+app.use(createProxyMiddleware({
   target: API_INTERNAL,
   changeOrigin: true,
   proxyTimeout: 120000,
+  pathFilter: ['/api/**', '/health'],
 }))
 
 app.use(express.static(path.join(__dirname, 'dist')))
