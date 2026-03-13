@@ -10,7 +10,7 @@ app.use(createProxyMiddleware({
   target: API_INTERNAL,
   changeOrigin: true,
   proxyTimeout: 120000,
-  pathFilter: ['/api/**', '/health'],
+  pathFilter: (path) => path.startsWith('/api/') || path === '/health',
 }))
 
 app.use(express.static(path.join(__dirname, 'dist')))
